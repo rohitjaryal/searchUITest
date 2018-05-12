@@ -1,9 +1,9 @@
 const puppeteer = require('puppeteer');
-let pageUrl='https://google.com/ncr';
+let pageUrl='https://google.de';
 let searchBox='#gs_lc0';
 let searchBtn="input[name='btnK']";
 let searchPageLbl='#resultStats';
-let searchPageHeader='span[data-original-name="The Avengers film series"]'; 
+let searchPageHeader='span[data-original-name="Avengers-Filmreihe"]'; 
 let searchString='Avengers';
 let assert = require('chai').assert;
 
